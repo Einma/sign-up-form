@@ -21,9 +21,9 @@ body {
   margin: 1px;
   display: flex;
   height: 100%;
-  background: url("assets/pandu-ior-hckbnUpcm6E-unsplash.jpg");
+  background: url("assets/splash.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .section1 {
@@ -108,20 +108,20 @@ input {
 }
 
 input:focus {
-  border: 1px solid #e5e7eb;
+  background-color: #e5e7eb;
 }
 
 button {
-  background-color: rgb(80, 125, 72);
+  background-color: #385da9;
   height: 30px;
   width: 200px;
   border: none;
   border-radius: 5px;
   font-family: monospace;
-  color: #e5e7eb;
+  color: white;
 }
 button:hover {
-  background-color: rgb(56, 83, 51);
+  background-color: #334c83;
 }
 .login {
   font-weight: 900;
@@ -130,6 +130,6 @@ button:hover {
 a,
 a:after,
 a:before {
-  text-decoration: underline;
+  text-decoration: un;
   color: inherit;
 }
