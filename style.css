@@ -58,7 +58,6 @@ body {
 .text {
   display: flex;
   height: 200px;
-  margin-left: 38px;
   margin-right: 50px;
   margin-top: 30px;
   padding-left: 20px;
@@ -81,12 +80,10 @@ fieldset {
   height: 80%;
   font-size: 22px;
   box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 255);
-  padding-left: 54px;
 }
 
 button {
   margin-top: 16.5px;
-  margin-left: 70px;
 }
 
 ul {
@@ -125,7 +122,6 @@ button:hover {
 }
 .login {
   font-weight: 900;
-  padding-left: 54px;
 }
 a,
 a:after,
@@ -138,4 +134,9 @@ a:before {
   body {
     background: url("assets/splash.gif");
   }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
