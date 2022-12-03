@@ -1,0 +1,135 @@
+:root {
+  --bgc: rgb(39, 67, 95);
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  font-family: monospace;
+}
+
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("assets/Norse-Bold.otf") format("opentype");
+}
+
+body {
+  margin: 1px;
+  display: flex;
+  height: 100%;
+  background: url("assets/pandu-ior-hckbnUpcm6E-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 {
+  flex: 1;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Norse-Bold;
+}
+
+.section2 {
+  background-color: white;
+  flex: 2;
+  height: 660px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.text {
+  display: flex;
+  height: 200px;
+  margin-left: 38px;
+  margin-right: 50px;
+  margin-top: 30px;
+  padding-left: 20px;
+  font-size: 24px;
+  flex: 0.7;
+  font-family: monospace;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  color: #1f2937;
+  flex: 2;
+  border-radius: 4px;
+}
+
+fieldset {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  height: 80%;
+  font-size: 22px;
+  box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 255);
+  padding-left: 54px;
+}
+
+button {
+  margin-top: 16.5px;
+  margin-left: 70px;
+}
+
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  margin-top: 25px;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid #e5e7eb;
+}
+
+button {
+  background-color: rgb(80, 125, 72);
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  font-family: monospace;
+  color: #e5e7eb;
+}
+button:hover {
+  background-color: rgb(56, 83, 51);
+}
+.login {
+  font-weight: 900;
+  padding-left: 54px;
+}
+a,
+a:after,
+a:before {
+  text-decoration: underline;
+  color: inherit;
+}
