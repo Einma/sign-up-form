@@ -133,3 +133,9 @@ a:before {
   text-decoration: un;
   color: inherit;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: url("assets/splash.gif");
+  }
+}
